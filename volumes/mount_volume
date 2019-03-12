@@ -1,0 +1,1 @@
+docker run -it --mount 'type=volume,src=supinfo_volume,dst=/data' ubuntu

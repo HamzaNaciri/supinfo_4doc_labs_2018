@@ -1,0 +1,1 @@
+docker run -d --name wordpress --link mysql:mysql -e WORDPRESS_DB_PASSWORD=supinfo -p 80:80 wordpress
