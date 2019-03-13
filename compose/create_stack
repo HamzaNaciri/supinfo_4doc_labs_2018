@@ -1,0 +1,1 @@
+docker stack deploy -c /home/supinfo/supinfo_4doc_labs_2018/compose/docker-compose.yml supinfo_stack
