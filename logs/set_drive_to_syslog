@@ -1,0 +1,1 @@
+docker run -d --rm --log-driver syslog -p 8081:80 --name nginx nginx && tail -f /var/log/syslog
